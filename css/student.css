@@ -9,6 +9,46 @@ body{
   .main{
       background-color: rgb(247, 238, 222);
   }
+  /* ------------------------grade-table---------------------------- */
+  .grade-table
+  {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: 150px; 
+    margin-right: auto;
+    width: 50%;
+      
+  }
+  .grade-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.grade-table th,
+.grade-table td {
+    padding: 10px 5px 5px 17px;
+    width: 50%;
+}
+.grade-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.grade-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.grade-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.grade-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+  /* ------------------------result-table--------------------------------- */
   .styled-table {
     border-collapse: collapse;
     margin: 25px 0;
@@ -18,7 +58,7 @@ body{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-left: auto; 
     margin-right: auto;
-    width: 60%;
+    width: 80%;
 }
 .styled-table thead tr {
     background-color: #009879;
@@ -28,7 +68,7 @@ body{
 .styled-table th,
 .styled-table td {
     padding: 12px 15px;
-    width: 70%;
+    width: 80%;
 }
 .styled-table tbody tr {
     border-bottom: 1px solid #dddddd;

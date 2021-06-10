@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    
+    
 </head>
 <body>
+    
     <div class="title">
         <span>Student Result Management System</span>
+        <a href="index.html" >  <button class="lgt_btn">HOME</button> </a>
     </div>
 
     <div class="main">
@@ -20,7 +25,7 @@
                     <legend class="heading">Admin Login</legend>
                     <input type="text" name="userid" placeholder="Email" autocomplete="off">
                     <input type="password" name="password" placeholder="Password" autocomplete="off">
-                    </fieldset>
+                </fieldset>
                 <input type="submit" value="Login">
             </form>    
         </div>
