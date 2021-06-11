@@ -15,7 +15,10 @@
     
     <div class="title">
         <span>Student Result Management System</span>
-        <a href="index.html" >  <button class="lgt_btn">HOME</button> </a>
+       <!-- <a href="index.html" >  <button class="lgt_btn" >HOME</button> </a>   -->
+       <div class= "content4">
+       <a href="index.html" > HOME </a>
+   </div>
     </div>
 
     <div class="main">
@@ -29,6 +32,8 @@
                 <input type="submit" value="Login">
             </form>    
         </div>
+       
+
         <div class="search">
             <form action="./student.php" method="get">
                 <fieldset>
@@ -48,10 +53,12 @@
                     ?>
 
                     <input type="text" name="rn" placeholder="Roll No">
-                    </fieldset>
+                    </fieldset>   
                 <input type="submit" value="Get Result">
             </form>
         </div>
+      
+
         <div class="search">
             <form action="./student.php" method="get">
                 <fieldset>
