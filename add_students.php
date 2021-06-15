@@ -55,6 +55,7 @@
             <fieldset>
                 <legend>Add Student</legend>
                 <input type="text" name="student_name" placeholder="Student Name">
+                <input type="text" name="father_name" placeholder="Father Name">
                 <input type="text" name="roll_no" placeholder="Roll No">
                 <?php
                     include('init.php');
