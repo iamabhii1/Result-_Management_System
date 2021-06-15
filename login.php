@@ -64,7 +64,7 @@
                 <fieldset>
                     <legend class="heading">For Guardians</legend>
 
-                    <?php
+<!--                     <?php
                         include('init.php');
 
                         $class_result=mysqli_query($conn,"SELECT `name` FROM `class`");
@@ -75,9 +75,11 @@
                             echo '<option value="'.$display.'">'.$display.'</option>';
                         }
                         echo'</select>'
-                    ?>
+                    ?> -->
+                    <input type="text" name="fn" placeholder="father name">
+                    <input type="text" name="sn" placeholder="student name">
 
-                    <input type="text" name="rn" placeholder="Roll No">
+<!--                     <input type="text" name="rn" placeholder="Roll No"> -->
                     </fieldset>
                 <input type="submit" value="Get Result">
             </form>
