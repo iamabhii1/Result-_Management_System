@@ -64,7 +64,7 @@
                 <fieldset>
                     <legend class="heading">For Guardians</legend>
 
-<!--                     <?php
+                    <?php
                         include('init.php');
 
                         $class_result=mysqli_query($conn,"SELECT `name` FROM `class`");
@@ -72,6 +72,8 @@
                             echo '<option selected disabled>Select Class</option>';
                         while($row = mysqli_fetch_array($class_result)){
                             $display=$row['name'];
+                            echo '<option value="'.$display.'">'.$display.'</option>';
+                            $display=$row['father_name'];
                             echo '<option value="'.$display.'">'.$display.'</option>';
                         }
                         echo'</select>'
@@ -114,4 +116,6 @@
         
     }
 ?>
+
+
 
