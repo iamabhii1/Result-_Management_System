@@ -1,0 +1,66 @@
+table
+{
+	width:30%;
+	height:140%;
+	margin: auto;
+  
+	border-style:solid;
+	 background-color:#ffffff; 
+	 border-radius: 6px;
+}
+tr{
+	padding:30px;
+}
+input[type=text],input[type=email] ,input[type=password]   {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 4px;
+  }
+
+  button[type=submit] {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 14px 32px;
+    text-align: center;
+    font-size: 16px;
+   position: relative;
+    top: 0%;
+    left: 35%;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  button[type=submit]:hover {opacity: 1}
+  
+
+  h1{
+    color:#00004d;
+  text-align: center;
+  font-family:Copperplate Gothic Light;
+   }
+
+  p{
+    color:#000000;
+  text-align: center;
+  font-family:Comic Sans MS;
+   }
+
+
+   .bg:before{
+	content:"";
+	position:absolute;
+	width:120%;
+	height:120%;
+	z-index:-1;
+background-image: url("vote6.jpg");
+  background-repeat: no-repeat;
+ background-size:100% 100% ;
+ opacity: 0.4;
+}
