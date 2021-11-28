@@ -16,7 +16,7 @@
  
 ### 2. Database Configuration for Xampp
     * Open phpmyadmin
-    * Create srms-master
+    * Create srms
     * Import database srms.sql (available inside `/database` folder)
     
 ### 3. For User
